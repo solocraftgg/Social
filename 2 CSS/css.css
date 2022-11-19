@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+li, a {
+    border-radius: none;
+    border: none;
+}
+li, a, button {
+    font-family: 'Heebo', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: azure;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 5%;
+    
+    background-color: #2B2D42;
+}
+
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav__links { 
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    
+    
+}
+
+.nav__links li a:hover {
+    color: #d6d6d6;
+   
+    
+}
+
+
+body {
+    background-color: #d6d6d6;
+}
+
+button {
+    padding: 9px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: none;
+}
+
+.explore_button {
+    border-style: solid;
+    background: #2B2D42;
+    
+    
+}
+
+.explore_button:hover {
+    background: #4284E6;
+}
+
+.try_now_button {
+    background: #e22d45;
+    border: 2px #E11432;
+    
+}
+
+.try_now_button:hover {
+    background: #E11432;
+}
+
+/*main*/
+main {
+    display: flex;
+    flex-direction: row-reverse;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 11px 5%;
+    
+}
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900px;
+    font-size: 50px;
+    color: #2B2D42;
+    margin: none;
+    
+    
+    
+}
+
+.div_main_text {
+    margin: 20px;
+    align-self: left;
+}
+
+h1 > .social_color {
+    color: #2B2D42;
+    animation-name: color_text;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.img1_phone {
+    transition: all 0.3s ease 0s;
+    width: 250px;
+    align-self: right;
+}
+
+.img1_phone:hover {
+    transition: all 0.3s ease 0s;
+    width: 260px;
+}
+
+
+footer {
+    background-color: #2B2D42;
+}
+
+
+  @keyframes color_text {
+    from {color: #2B2D42;}
+    to {color: #e22d45;}
+    
+  }
