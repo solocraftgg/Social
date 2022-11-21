@@ -158,7 +158,6 @@ h1 > .social_color {
 
 
 
-
 footer {
     background-color: #2B2D42;
 }
@@ -175,5 +174,50 @@ footer {
     50% {background-color:#4284E6}
     100% {background-color: #2B2D42;}
 
+    
+  }
+  @media  screen and (max-width: 790) {
+    .div_main_text {
+        font-size: 10px;
+    }
+    
+  }
+  @media screen and (max-width: 490px) {
+    h1 {
+        font-size: 28px;
+        
+    }
+    p {
+        font-size: 18px;
+        width: 300px;
+    }
+    .social_text {
+        font-size: 23px;
+        width: 109px;
+
+    }
+    .img1_phone {
+        width: 180px;
+    }
+    .img1_phone:hover{
+        width: 185px;
+    }
+    .div_main_text {
+        margin: 50px;
+    }
+    
+    button {
+        font-size: 10px;
+        
+    }
+    a {
+        font-size: 12px;
+    }
+    
+    header {
+        width: fit-content;
+        height: fit-content;
+        justify-content: none;
+    }
     
   }
