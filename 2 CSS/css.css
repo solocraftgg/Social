@@ -156,6 +156,10 @@ h1 > .social_color {
     margin-top: 100px;
 }
 
+.social_text {
+    width: max-content;
+}
+
 
 
 footer {
