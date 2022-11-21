@@ -160,7 +160,16 @@ h1 > .social_color {
 
 footer {
     background-color: #2B2D42;
-}
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+    -webkit-text-fill-color: #d6d6d6;
+    
+  }
+  .credits {
+    font-size: 20px;
+  }
 
 
   @keyframes color_text {
@@ -176,13 +185,18 @@ footer {
 
     
   }
+  
+
+
+    
+ 
+
   @media  screen and (max-width: 790) {
     .div_main_text {
         font-size: 10px;
     }
-    
-  }
-  @media screen and (max-width: 490px) {
+}
+  @media screen and (max-width: 620px) {
     h1 {
         font-size: 28px;
         
@@ -215,9 +229,12 @@ footer {
     }
     
     header {
-        width: fit-content;
         height: fit-content;
         justify-content: none;
+        
     }
     
+
   }
+  
+  
