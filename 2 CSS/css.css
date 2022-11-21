@@ -207,7 +207,7 @@ footer {
     }
     .social_text {
         font-size: 23px;
-        width: 109px;
+        width: max-content;
 
     }
     .img1_phone {
