@@ -239,9 +239,10 @@ footer {
     .social_text {
         font-size: 25px;
         width: max-content;
-        
-
     }
+    .nav__links { 
+        width: min-content;
+      }
     .img1_phone {
         width: 180px;
     }
