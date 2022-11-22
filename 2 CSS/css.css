@@ -237,9 +237,8 @@ footer {
         width: 300px;
     }
     .social_text {
-        height: fit-content;
         font-size: 25px;
-        width: fit-content;
+        width: max-content;
         
 
     }
